@@ -1,0 +1,295 @@
+body {
+    margin: 0%;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    padding: 10px 0px;
+    align-items: center;
+
+
+    border-bottom: 3px solid #557C55;
+    background-color: black;
+
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+
+.header-menu>ul a {
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+
+    color: #F2FFE9;
+}
+
+.header-menu {
+    margin: 0px 150px;
+}
+
+ul {
+    display: flex;
+    /* ใช้ Flexbox เพื่อจัดการลิสต์แนวนอน */
+    list-style-type: none;
+    /* ไม่แสดงเครื่องหมายลิสต์ */
+    margin: 0;
+    /* ลบการขยายของ margin ที่มีอยู่โดยปริยาย */
+    padding: 0;
+    /* ลบการขยายของ padding ที่มีอยู่โดยปริยาย */
+}
+
+.header-menu-pading {
+    margin: 0px 20px;
+    border-bottom: 2px solid;
+}
+
+.header-menu-pading:hover {
+    border-bottom: 2px solid #ff9d00;
+
+}
+
+
+.home {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-size: 32px;
+
+    align-items: center;
+
+    justify-content: center;
+    flex-direction: column;
+    /* กำหนดให้เป็น column layout */
+
+
+    background-size: cover;
+    background-position: center;
+    background-image: url('/Photo/photo-1.png');
+
+}
+
+.text-home {
+
+    margin: 0 0 20px 0;
+    text-align: center;
+
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+
+
+
+    color: white;
+}
+
+button {
+    height: 5vh;
+    width: 19vh;
+    cursor: pointer;
+    border-radius: 25px;
+
+    border: 3px solid white;
+    background-color: rgba(128, 128, 128, 0.802);
+}
+
+.about {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+    /* background-color: #A6CF98; */
+    background-size: cover;
+    background-position: center;
+    background-image: url('/Photo/photo-2.png');
+
+
+}
+
+h1 {
+    text-align: center;
+    /* padding-top: 7vh; */
+    /* margin: 40px 0px 40px 0px; */
+    padding: 80px 0px 80px 0px;
+    /* margin: 0; */
+
+    font-family: "Arial Black", "Arial Bold", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.photome {
+    display: flex;
+    align-items: center;
+    padding-left: 22vh;
+}
+
+.photome>img {
+    width: auto;
+    height: 45vh;
+    border-radius: 50%;
+    /* ทำให้มุมมนส่วนบนของรูปเป็นรูปวงกลม */
+    border: 7px solid rgba(255, 255, 255, 0.509);
+    /* กำหนดสีขอบและขนาดขอบ */
+}
+
+.text-about {
+    display: flex;
+    padding: 20px;
+    margin-left: 150px;
+    font-size: 20pt;
+    width: 750px;
+    height: 250px;
+    border-radius: 50px;
+
+    align-items: center;
+    text-align: center;
+
+    font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-size: 27px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+
+    color: white;
+    background-color: #00000046;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+
+    /* background-color: #557C55; */
+    background-size: cover;
+    background-position: center;
+    background-image: url('/Photo/photo-3.png');
+
+
+}
+
+/* .skill-menu>li>img {
+    width: auto;
+    height: 100px;
+    border-radius: 25px;
+
+    padding: 20px;
+    background-color: gray;
+    border: 7px solid #FA7070;
+
+} */
+
+.skill-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140vh;
+    height: auto;
+    list-style-type: none;
+    margin: 50px 0px 50px 0px;
+
+    box-shadow: 2px 2px 2px #888;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.452);
+}
+
+h2 {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+.border-bottom {
+    width: 95%;
+    border-bottom: 2px solid #dadada;
+
+}
+
+.skill-box>.skill-menu {
+    width: 95%;
+}
+
+
+.skill-box>.skill-menu>img,
+svg {
+    width: auto;
+    height: 100px;
+    padding: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+    /* background-color: #FA7070; */
+    background-size: cover;
+    background-position: center;
+    background-image: url('/Photo/photo-4.png');
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+
+    /* background-color: gray; */
+}
+
+.contact-box-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact-box-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.contact-box-inline {
+    border-radius: 50px;
+    padding: 50px 50px 50px 30px;
+
+    background-color: rgba(250, 235, 215, 0.568);
+}
